@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; 
+    color: #333; 
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile-pic {
+    width: 150px; 
+    border-radius: 0; /* Bordes rectos */
+    margin-top: 10px;
+}
+
+.content {
+    margin-top: 20px; 
+}
+
+.sobre-mi, .habilidades, .contacto {
+    margin-bottom: 40px; 
+}
+
+h2 {
+    color: #4CAF50; 
+    margin-top: 0;
+}
+
+h2 + p {
+    margin-bottom: 10px; 
+}
+
+.habilidades ul { /* Cambié #habilidades a .habilidades */
+    list-style-type: none; 
+    padding: 0;
+}
+
+.habilidades li { /* Cambié #habilidades a .habilidades */
+    background-color: #f0f0f0; 
+    margin: 5px 0; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666; 
+}
