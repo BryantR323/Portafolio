@@ -16,7 +16,7 @@ header {
 
 .profile-pic {
     width: 150px; 
-    border-radius: 0; /* Bordes rectos */
+    border-radius: 0; 
     margin-top: 10px;
 }
 
@@ -24,7 +24,7 @@ header {
     margin-top: 20px; 
 }
 
-.sobre-mi, .habilidades, .contacto {
+.sobre-mi, .habilidades, .contacto, .proyectos {
     margin-bottom: 40px; 
 }
 
@@ -37,16 +37,36 @@ h2 + p {
     margin-bottom: 10px; 
 }
 
-.habilidades ul { /* Cambié #habilidades a .habilidades */
+.habilidades ul, .proyectos ul {
     list-style-type: none; 
     padding: 0;
 }
 
-.habilidades li { /* Cambié #habilidades a .habilidades */
+.habilidades li, .proyectos li {
     background-color: #f0f0f0; 
     margin: 5px 0; 
     padding: 10px; 
     border-radius: 5px; 
+}
+
+.proyectos {
+    padding: 15px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.proyectos h2 {
+    color: #4CAF50; 
+}
+
+.proyectos a {
+    color: #3498db; 
+    text-decoration: none; 
+}
+
+.proyectos a:hover {
+    text-decoration: underline; 
 }
 
 footer {
