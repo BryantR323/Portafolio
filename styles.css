@@ -1,49 +1,79 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Portafolio de Bryant Rodriguez</title>
-</head>
-<body>
-    <header>
-        <h1>Portafolio de Bryant Rodriguez</h1>
-        <h2>Estudiante</h2>
-        <img src="https://github.com/BryantR323/Portafolio/blob/main/WhatsApp%20Image%202025-04-02%20at%209.48.12%20PM.jpeg?raw=true" alt="Tu Foto" class="profile-pic">
-        
-        <div class="boton-proyectos">
-            <a href="mis_proyectos.html" class="btn">Ir a Mis Proyectos</a>
-        </div>
-    </header>
-    
-    <div class="content">
-        <div class="sobre-mi">
-            <h2>Sobre Mí</h2>
-            <p>Soy Bryant Rodriguez 18-MISN-2-007, estudiante de ingeniería en sistemas. Me gusta aprender y explorar nuevas herramientas que me ayuden a crecer profesionalmente.</p>
-        </div>
-        
-        <div class="habilidades">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Trabajo en equipo</li>
-                <li>Comunicación efectiva</li>
-                <li>Adaptabilidad</li>
-            </ul>
-        </div>
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; 
+    color: #333; 
+    margin: 0;
+    padding: 20px;
+}
 
-        <div class="contacto">
-            <h2>Contacto</h2>
-            <p>Puedes contactarme a través de:</p>
-            <ul>
-                <li>Email: bryant.rod71@gmail.com</li>
-                <li>Github: <a href="https://github.com/BryantR323" target="_blank">Perfil de Github</a></li>
-            </ul>
-        </div>
-    </div>
-    
-    <footer>
-        <p>&copy; 2025 Bryant Rodriguez. Todos los derechos reservados.</p>
-    </footer>
-</body>
-</html>
+header {
+    text-align: center;
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile-pic {
+    width: 150px; 
+    border-radius: 0; 
+    margin-top: 10px;
+}
+
+.content {
+    margin-top: 20px; 
+}
+
+.sobre-mi, .habilidades, .contacto {
+    margin-bottom: 40px; 
+}
+
+h2 {
+    color: #4CAF50; 
+    margin-top: 0;
+}
+
+h2 + p {
+    margin-bottom: 10px; 
+}
+
+.habilidades ul, .contacto ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.habilidades li, .contacto li {
+    background-color: #f0f0f0; 
+    margin: 5px 0; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.boton-proyectos {
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50; 
+    color: white; 
+    text-decoration: none; 
+    border: 2px solid #ffffff; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    transition: background-color 0.3s, border-color 0.3s; 
+}
+
+.btn:hover {
+    background-color: #ffffff; 
+    color: #4CAF50; 
+    border-color: #4CAF50; 
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666; 
+}
