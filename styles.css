@@ -1,119 +1,76 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; 
+    color: #333; 
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav {
-    display: flex;
-}
-
-.cart {
-    position: relative;
-}
-
-.cart-items {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background-color: white;
-    color: black;
-    border: 1px solid #ccc;
-    padding: 10px;
-    display: none;
-}
-
-.cart:hover .cart-items {
-    display: block;
-}
-
-.productos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.producto {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
-    width: 250px;
     text-align: center;
-}
-
-.producto img {
-    max-width: 100%;
-    height: auto;
-}
-
-.btn-vaciar {
-    background-color: #f00;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-.btn-comprar {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-.destacados, .mas-productos {
+    background-color: #4CAF50; 
+    color: white; 
     padding: 20px;
+    border-radius: 8px;
 }
 
-
-.creadores {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
+.profile-pic {
+    width: 150px; 
+    border-radius: 0; 
+    margin-top: 10px;
 }
 
-.creador {
-    text-align: center;
+.content {
+    margin-top: 20px; 
 }
 
-.creador img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
+.sobre-mi, .habilidades, .contacto, .proyectos {
+    margin-bottom: 40px; 
 }
 
+h2 {
+    color: #4CAF50; 
+    margin-top: 0;
+}
 
-.btn-creadores {
-    background-color: #007bff; 
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px auto;
-    cursor: pointer;
+h2 + p {
+    margin-bottom: 10px; 
+}
+
+.habilidades ul, .proyectos ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.habilidades li, .proyectos li {
+    background-color: #f0f0f0; 
+    margin: 5px 0; 
+    padding: 10px; 
     border-radius: 5px; 
-    transition: background-color 0.3s ease; 
 }
 
-.btn-creadores:hover {
-    background-color: #0056b3; 
+.proyectos {
+    padding: 15px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.proyectos h2 {
+    color: #4CAF50; 
+}
+
+.proyectos a {
+    color: #3498db; 
+    text-decoration: none; 
+}
+
+.proyectos a:hover {
+    text-decoration: underline; 
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666; 
 }
